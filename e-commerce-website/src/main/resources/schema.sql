@@ -1,0 +1,5 @@
+CREATE TABLE orders (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    amount DOUBLE NOT NULL,
+    address VARCHAR(255) NOT NULL
+);
